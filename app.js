@@ -84,9 +84,11 @@ function getTasks() {
    </div>
   </div>`;
     
-
-  var addIn = document.getElementById("addgreen");
-    addIn.classList.remove("checkedBox");
+    if (Checkbox = document.getElementById("Checkbox1")) {
+        var addIn = document.getElementById("addgreen");
+            addIn.classList.add("checkedBox");
+    }
+  
   }
 }
 
